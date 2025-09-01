@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASS X-4</title>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="judul">
+        <h1>X-4</h1>
+        <h4>Hallo Mahluk X-4</h4>
+        <p>Selamat datang di website kelas 10 4. Web ini berisi informasi tentang kelas, jadwal, foto, dan masih banyak lagi.</p>
+        </div>
+        <nav class="page">
+            <a href="#jadwal">Jadwal</a>
+            <a href="#Struktur">Struktur</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#media">Media</a>
+        </nav>
+
+            <!-- welcome  -->
+        <!-- Latar belakang popup -->
+        <div id="popupBackground">
+            <div id="popupBox">
+                <h1>Selamat datang di halaman utama!</h1>
+                <p>Anda berhasil login dengan Nama yang terdaftar.</p>
+                <div class="button-group">
+                    <!-- Tombol Lanjutkan -->
+                    <button onclick="continueToPage()">Lanjutkan</button>
+                    <!-- Tombol Logout -->
+                    <button onclick="logout()">Logout</button>
+                </div>
+            </div>
+
+
+    </header>
+
+    <main>
+
+        <section id="jadwal">
+
+            <h2>Jadwal X-4</h2>
+
+            <div class="pembelajaran">
+                <h3>Jadwal Pembelajaran</h3>
+                <details class="jadwal" data-hari="1">
+                    <summary>Senin</summary>
+                        <p>GGF [Geografi] | 1 Jam</p>
+                        <p>FSK [Fisika] | 3 Jam</p>
+                        <P>Istirahat</P>
+                        <p>KMA [Kimia] | 3 Jam</p>
+                        <P>Istirahat</P>
+                        <p>BK [Badan Konsling] | 30 Menit</p>
+                        <p>EKN [Ekonomi] | 2 Jam</p>
+                </details>
+                <details class="jadwal" data-hari="2">
+                    <summary>Selasa</summary>
+                        <p>BIN [Bahasa Indonesia] | 4 Jam</p>
+                        <P>Istirahat</P>
+                        <p>KMA [Kimia] | 3 Jam</p>
+                        <P>Istirahat</P>
+                        <p>FSK [Fisika] | 3 Jam</p>
+                </details>
+                <details class="jadwal" data-hari="3">
+                    <summary>Rabu</summary>
+                        <p>EKN [Ekonomi] | 2 Jam</p>
+                        <p>PPKN [] | 2 Jam</p>
+                        <p>Istirahat</p>
+                        <P>PJOK [Pendidikan Jasmani, Olahraga, dan Kesehatan] | 3 Jam</P>
+                        <P>Istirahat</P>
+                        <p>GGF [Geografi] | 3 Jam</p>
+                </details>
+                <details class="jadwal" data-hari="4">
+                    <summary>Kamis</summary>
+                        <p>MAT [Matematika] | 2 Jam</p>
+                        <P>EKN [Ekonomi] | 2 Jam</P>
+                        <p>Istirahat</p>
+                        <p>PA [Pendidikan Agama] | 3 Jam</p>
+                        <p>Istirahat</p>
+                        <P>GGF [Geografi] | 3 Jam</P>
+                </details>
+                <details class="jadwal" data-hari="5">
+                    <summary>Jum'at</summary>
+                        <p>Jum'at Kebersihan/Senam</p>
+                        <p>SNP [Seni Rupa] | 2 Jam</p>
+                        <P>INF [Informatika] | 2 Jam</P>
+                        <P>Istirahat</P>
+                        <p>MAT [Matematika] | 2 Jam</p>
+                </details>
+            </div>
+            <div class="piket">
+                <h3>Jadwal Piket</h3>
+                <details class="jadwal" data-hari="1">
+                    <summary>Senin</summary>
+                        <p>Elba  |  Abi  |  Rizky  | Ezky  | Gangga  |  Bagus  |  Okta</p>
+                </details>
+                <details class="jadwal" data-hari="2">
+                    <summary>Selasa</summary>
+                        <p>Djenar | Rasta | Fadel | Saskiya | Mandala | Reifan | Fikri</p>
+                </details>
+                <details class="jadwal" data-hari="3">
+                    <summary>Rabu</summary>
+                        <p>Indra | Aurel | Zamzami | Devika | Daffa | Aliya | Zalfa</p>
+                </details>
+                <details class="jadwal" data-hari="4">
+                    <summary>Kamis</summary>
+                        <p>Ilham | Ilmiy | Khansa | Kaylla | Renita | Tata | Yogi</p>
+                </details>
+                <details class="jadwal" data-hari="5">
+                    <summary>Jum'at</summary>
+                        <p>Fadil | Aldo | Nabila | Khonsa | Ali | Faqih</p>
+                </details>
+            </div>
+        </section>
+
+        <br><br>
+
+        <!-- struktur -->
+        <section id="Struktur">
+            <div class="struktur">
+                <img src="../assets/images/webv1/struktur.png" alt="">
+            </div>
+            <div class="spacer"></div>
+        </section>
+
+        <br><br>
+
+        <section id="Gallery">
+            <div class="gallery">
+                <h3>Gallery Kelas</h3>
+                <div class="gallery-grid">
+                    <img src="../assets/images/webv1/foto1.jpg" alt="Gambar 1">
+                    <img src="../assets/images/webv1/foto2.jpg" alt="Gambar 2">
+                    <img src="../assets/images/webv1/foto3.jpg" alt="Gambar 3">
+                    <img src="../assets/images/webv1/foto4.jpg" alt="Gambar 4">
+                    <img src="../assets/images/webv1/foto5.jpg" alt="Gambar 5">
+                    <img src="../assets/images/webv1/foto6.jpg" alt="Gambar 6">
+                    <img src="../assets/images/webv1/foto7.jpg" alt="Gambar 7">
+                    <img src="../assets/images/webv1/foto8.jpg" alt="Gambar 8">
+                </div>
+            </div>
+        </section>
+        
+        <br><br>
+
+        <section id="media">
+            <section class="social-media-section">
+                <div class="container">
+                    <h3>Sosial Media X-4</h3>
+                    <div class="social-media-icons">
+                        <a href="https://www.tiktok.com/anakanakpakfitro" target="_blank">
+                            <img src="../assets/images/webv1/tiktok.png"" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/ofc_tenequattro" target="_blank">
+                            <img src="../assets/images/webv1/ig.png" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+        </section>
+
+    </main>
+    <br><br>
+
+    <footer class="footer">
+        <div class="footerconr">
+            <p>&copy;Class X-4 2025.</p>
+        </div>
+    </footer>
+    
+    
+
+    <script src="../js/script.js"></script>
+
+
+
+</body>
+</html>
