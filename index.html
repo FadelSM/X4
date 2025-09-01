@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN WEBSITE X 4</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    
+    <div class="login-container">
+        <h2>Login</h2>
+        <p>Selamat datang di website kelas X 4 SMA PGRI 3 Jakarta</p>
+        <form id="loginForm">
+            <label for="nis">Nama (Nama Siswa):</label>
+            <input type="text" id="nis" placeholder="Masukkan Nama anda" required><br><br>
+
+            <button type="submit">Login</button>
+        </form>
+        <p id="errorMessage" style="color:red";></p>
+    </div>
+
+    <!-- modal loading -->
+    <div id="loadingModal" class="modal">
+        <div class="modal-content">
+            <p>Memuat...</p>
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <script src="js/login.js"></script>
+
+</body>
+</html>
+
